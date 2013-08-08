@@ -1,0 +1,122 @@
+/*CSS Classes : greybutton, redbutton, bluebutton, greenbutton*/
+/*Button Style Start*/
+.greybutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.greybutton:hover {
+	background-color:#dfdfdf;
+	color:#777777;
+}.greybutton:active {
+	position:relative;
+	top:1px;
+	color:#777777;
+}
+
+.redbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background-color:#f24537;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #810e05;
+}.redbutton:hover {
+	background-color:#c62d1f;
+	color:#ffffff;
+}.redbutton:active {
+	color:#ffffff;
+	position:relative;
+	top:1px;
+}
+
+.greenblackbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #005072;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #005072;
+	box-shadow:inset 0px 1px 0px 0px #005072;
+	background-color:#005053;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #005072;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #005072;
+}.greenblackbutton:hover {
+	background-color:#005072;
+	color:#ffffff;
+}.greenblackbutton:active {
+	color:#ffffff;
+	position:relative;
+	top:1px;
+}
+
+.bluebutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}.bluebutton:hover {
+	color:#ffffff;
+	background-color:#1e62d0;
+}.bluebutton:active {
+	color:#ffffff;
+	position:relative;
+	top:1px;
+}
+
+.greenbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background-color:#9dce2c;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:3px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #689324;
+}.greenbutton:hover {
+	color:#ffffff;
+	background-color:#8cb82b;
+}.greenbutton:active {
+	color:#ffffff;
+	position:relative;
+	top:1px;
+}
+/*Button Style End*/

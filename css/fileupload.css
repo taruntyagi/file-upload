@@ -1,0 +1,170 @@
+body{
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 14px;
+}
+
+.file-upload-button-container{
+	border: 1px solid #9D9D9D;
+	width: 525px;
+	height: 50px;
+	margin-top: 30px;
+}
+.add-files-btn{
+	float: left;
+	padding: 10px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background-color:#9dce2c;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:3px 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #689324;
+	margin-left: 15px;
+    margin-top: 10px;
+}
+
+#add-files{
+	display: block !important;
+    margin-top: -18px;
+    opacity: 0 !important;
+    width: 100px;
+}
+
+.start-files-upload-btn{
+	float: left;
+	padding: 10px;
+}
+
+.cancel-files-btn{
+	float: left;
+	padding: 10px;
+}
+
+.delete-files-btn{
+	float: left;
+	padding: 10px;
+}
+
+.selected-files-info{
+	border: 1px solid #9D9D9D;
+	width: 525px;
+	height: 70px;
+	margin-top: 25px; 
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+.float-l {
+	float: left;
+}
+
+.padding-5 {
+	padding:5px;
+}
+
+.progress-bar{
+	margin-left: 70px;
+}
+
+.progress-txt{
+	float: left;
+}
+
+.progress{
+	border: 1px solid #ddd; 
+	height: 20px; 
+	width:345px; 
+	margin-left: 100px;
+}
+
+.error-message
+{
+	width: 515px;
+	border: 1px solid #D8D8D8;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 11px;
+	text-transform: uppercase;
+	background-color: rgb(255, 249, 242);
+	color: rgb(211, 0, 0);
+	text-align: left;
+}
+
+img
+{
+	float: left; 
+}
+
+.success-message
+{
+	width: 505px;
+	border: 1px solid #D8D8D8;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 11px;
+	text-transform: uppercase;
+	background-color: rgb(236, 255, 216);
+	color: green;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.success-message img
+{
+	position: relative;
+	bottom: -3px;
+}
+
+.error-msg-txt{
+	margin-left: 30px;
+    margin-top: -9px;
+}
+
+.success-msg-txt{
+	margin-left: 30px;
+    margin-top: -9px;
+}
+
+.upload-progress-status{
+	background-color: #3D94F6;
+    box-shadow: 0 1px 0 0 #1570CD inset;
+    height: 18px;
+    margin: 1px;
+    width: 0%;
+}
+
+.upload-progress-percent{
+	margin-left: 170px;
+}
+
+.remove-div{
+	
+}
+
+.remove-div:HOVER{
+	cursor: pointer;
+}
+
+.remove-image{
+	margin-left: -11px;
+    margin-top: 26px;
+}
+
+
+.parent-dynamic{
+	height: 70px;
+    margin-top: 25px;
+    width: 525px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>File Upload Plugin</title>
+        <link href="css/fileupload.css" rel="stylesheet" type="text/css" />
+		<link href="css/button.css" rel="stylesheet" type="text/css" />
+		<link href="css/inputtext.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.9.1.min.js"></script>
+    </head>
+    <body>
+    	<div class="error-message" >
+			<img src="images/error.png" alt="Error" />&nbsp;
+			<div class="error-msg-txt"></div>
+		</div>
+		<div class="success-message" >
+			<img src="images/correct.png" alt="Success" /> &nbsp;
+			<div class="success-msg-txt"></div>
+		</div>
+		<div class="file-upload-button-container">
+			<form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
+				
+				<div class="add-files-btn">+ Add Files<input id="add-files" type="file" name="file" multiple /></div>
+				<div class="start-files-upload-btn"><input type="button" id="bluebuttonid" class="bluebutton" name="blueButton" value="Start Upload"/></div>
+				<div class="cancel-files-btn"><input type="button" class="greybutton" name="" value="Cancel Upload"/></div>
+			</form>
+		</div>
+		<div id="selected-files-all">
+			
+		</div>
+		<script src="js/file-upload.js"></script>
+	</body>
+</html>
